@@ -1,0 +1,2554 @@
+[
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb90c"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75001",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.336293452178162,
+                48.86263032972476
+            ],
+            "xLon": 2.336293452178162,
+            "yLat": 48.86263032972476,
+            "geoHash": "110100000001001110011101110101"
+        },
+        "radiusMeter": 1139,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75001",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 17308
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.320782077542493,
+                    48.85399263293169
+                ],
+                "xLon": 2.320782077542493,
+                "yLat": 48.85399263293169
+            },
+            "northEast": {
+                "point": [
+                    2.350833552487191,
+                    48.86986349270285
+                ],
+                "xLon": 2.350833552487191,
+                "yLat": 48.86986349270285
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.320782077542493,
+                        48.8630784802801
+                    ],
+                    [
+                        2.325754396571458,
+                        48.86954640751676
+                    ],
+                    [
+                        2.327877012030475,
+                        48.86986349270285
+                    ],
+                    [
+                        2.350833552487191,
+                        48.86334427949446
+                    ],
+                    [
+                        2.350088626519611,
+                        48.861955602681036
+                    ],
+                    [
+                        2.344559184230591,
+                        48.85399263293169
+                    ],
+                    [
+                        2.332852142283249,
+                        48.85930664755518
+                    ],
+                    [
+                        2.320782077542493,
+                        48.8630784802801
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.336293452178162,
+                    48.86263032972476
+                ],
+                "xLon": 2.336293452178162,
+                "yLat": 48.86263032972476,
+                "geoHash": "110100000001001110011101110101"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82bfc1ef371d36eb7f4"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75002",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3441068895577644,
+                48.8679033160166
+            ],
+            "xLon": 2.3441068895577644,
+            "yLat": 48.8679033160166,
+            "geoHash": "110100000001001111001000100010"
+        },
+        "radiusMeter": 1210,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75002",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 23009
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.327877012030475,
+                    48.86334427949446
+                ],
+                "xLon": 2.327877012030475,
+                "yLat": 48.86334427949446
+            },
+            "northEast": {
+                "point": [
+                    2.354114850410883,
+                    48.8706309531233
+                ],
+                "xLon": 2.354114850410883,
+                "yLat": 48.8706309531233
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.327877012030475,
+                        48.86986349270285
+                    ],
+                    [
+                        2.347825827106489,
+                        48.8706309531233
+                    ],
+                    [
+                        2.354114850410883,
+                        48.86927935103906
+                    ],
+                    [
+                        2.350833552487191,
+                        48.86334427949446
+                    ],
+                    [
+                        2.327877012030475,
+                        48.86986349270285
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3441068895577644,
+                    48.8679033160166
+                ],
+                "xLon": 2.3441068895577644,
+                "yLat": 48.8679033160166,
+                "geoHash": "110100000001001111001000100010"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff833fc1ef371d36ebc7e"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75003",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3593610397833773,
+                48.86305431644195
+            ],
+            "xLon": 2.3593610397833773,
+            "yLat": 48.86305431644195,
+            "geoHash": "110100000001001110011101111101"
+        },
+        "radiusMeter": 1049,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75003",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 35652
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.350088626519611,
+                    48.855740363038045
+                ],
+                "xLon": 2.350088626519611,
+                "yLat": 48.855740363038045
+            },
+            "northEast": {
+                "point": [
+                    2.368401039058591,
+                    48.86927935103906
+                ],
+                "xLon": 2.368401039058591,
+                "yLat": 48.86927935103906
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.350833552487191,
+                        48.86334427949446
+                    ],
+                    [
+                        2.354114850410883,
+                        48.86927935103906
+                    ],
+                    [
+                        2.363857163658477,
+                        48.86743468202396
+                    ],
+                    [
+                        2.368401039058591,
+                        48.855740363038045
+                    ],
+                    [
+                        2.350088626519611,
+                        48.861955602681036
+                    ],
+                    [
+                        2.350833552487191,
+                        48.86334427949446
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3593610397833773,
+                    48.86305431644195
+                ],
+                "xLon": 2.3593610397833773,
+                "yLat": 48.86305431644195,
+                "geoHash": "110100000001001110011101111101"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb90d"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75004",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.357361618821858,
+                48.85422852557954
+            ],
+            "xLon": 2.357361618821858,
+            "yLat": 48.85422852557954,
+            "geoHash": "110100000001001110011101111001"
+        },
+        "radiusMeter": 1031,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75004",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 28012
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.344559184230591,
+                    48.84616761048593
+                ],
+                "xLon": 2.344559184230591,
+                "yLat": 48.84616761048593
+            },
+            "northEast": {
+                "point": [
+                    2.369017412062745,
+                    48.861955602681036
+                ],
+                "xLon": 2.369017412062745,
+                "yLat": 48.861955602681036
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.344559184230591,
+                        48.85399263293169
+                    ],
+                    [
+                        2.350088626519611,
+                        48.861955602681036
+                    ],
+                    [
+                        2.368401039058591,
+                        48.855740363038045
+                    ],
+                    [
+                        2.369017412062745,
+                        48.85322511634771
+                    ],
+                    [
+                        2.364320755819571,
+                        48.84616761048593
+                    ],
+                    [
+                        2.344559184230591,
+                        48.85399263293169
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.357361618821858,
+                    48.85422852557954
+                ],
+                "xLon": 2.357361618821858,
+                "yLat": 48.85422852557954,
+                "geoHash": "110100000001001110011101111001"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb90e"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75005",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.349859280813542,
+                48.84450869513584
+            ],
+            "xLon": 2.349859280813542,
+            "yLat": 48.84450869513584,
+            "geoHash": "110100000001001110011101100111"
+        },
+        "radiusMeter": 1181,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75005",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 60938
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.336590613220193,
+                    48.83683571227172
+                ],
+                "xLon": 2.336590613220193,
+                "yLat": 48.83683571227172
+            },
+            "northEast": {
+                "point": [
+                    2.365944290009594,
+                    48.85399263293169
+                ],
+                "xLon": 2.365944290009594,
+                "yLat": 48.85399263293169
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.336590613220193,
+                        48.83969448273319
+                    ],
+                    [
+                        2.344559184230591,
+                        48.85399263293169
+                    ],
+                    [
+                        2.364320755819571,
+                        48.84616761048593
+                    ],
+                    [
+                        2.365944290009594,
+                        48.84490786020056
+                    ],
+                    [
+                        2.351573651114927,
+                        48.83683571227172
+                    ],
+                    [
+                        2.342031437797675,
+                        48.83830303994149
+                    ],
+                    [
+                        2.336590613220193,
+                        48.83969448273319
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.349859280813542,
+                    48.84450869513584
+                ],
+                "xLon": 2.349859280813542,
+                "yLat": 48.84450869513584,
+                "geoHash": "110100000001001110011101100111"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff833fc1ef371d36ebc7b"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75006",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.332670816302849,
+                48.84896818037342
+            ],
+            "xLon": 2.332670816302849,
+            "yLat": 48.84896818037342,
+            "geoHash": "110100000001001110011101110000"
+        },
+        "radiusMeter": 1202,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75006",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 43451
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.316633254352939,
+                    48.83969448273319
+                ],
+                "xLon": 2.316633254352939,
+                "yLat": 48.83969448273319
+            },
+            "northEast": {
+                "point": [
+                    2.344559184230591,
+                    48.85930664755518
+                ],
+                "xLon": 2.344559184230591,
+                "yLat": 48.85930664755518
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.316633254352939,
+                        48.846758802040135
+                    ],
+                    [
+                        2.329310503334077,
+                        48.85283780945634
+                    ],
+                    [
+                        2.332852142283249,
+                        48.85930664755518
+                    ],
+                    [
+                        2.344559184230591,
+                        48.85399263293169
+                    ],
+                    [
+                        2.336590613220193,
+                        48.83969448273319
+                    ],
+                    [
+                        2.324660773025275,
+                        48.843521620525856
+                    ],
+                    [
+                        2.316633254352939,
+                        48.846758802040135
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.332670816302849,
+                    48.84896818037342
+                ],
+                "xLon": 2.332670816302849,
+                "yLat": 48.84896818037342,
+                "geoHash": "110100000001001110011101110000"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb8b1"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75007",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.312438669108207,
+                48.85608242663935
+            ],
+            "xLon": 2.312438669108207,
+            "yLat": 48.85608242663935,
+            "geoHash": "110100000001001110011101011001"
+        },
+        "radiusMeter": 1677,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75007",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 57974
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.289783049093025,
+                    48.846758802040135
+                ],
+                "xLon": 2.289783049093025,
+                "yLat": 48.846758802040135
+            },
+            "northEast": {
+                "point": [
+                    2.332852142283249,
+                    48.86348017781633
+                ],
+                "xLon": 2.332852142283249,
+                "yLat": 48.86348017781633
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.301555660655981,
+                        48.86348017781633
+                    ],
+                    [
+                        2.320782077542493,
+                        48.8630784802801
+                    ],
+                    [
+                        2.332852142283249,
+                        48.85930664755518
+                    ],
+                    [
+                        2.329310503334077,
+                        48.85283780945634
+                    ],
+                    [
+                        2.316633254352939,
+                        48.846758802040135
+                    ],
+                    [
+                        2.307340850607289,
+                        48.84770338650857
+                    ],
+                    [
+                        2.289783049093025,
+                        48.85812296221435
+                    ],
+                    [
+                        2.301555660655981,
+                        48.86348017781633
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.312438669108207,
+                    48.85608242663935
+                ],
+                "xLon": 2.312438669108207,
+                "yLat": 48.85608242663935,
+                "geoHash": "110100000001001110011101011001"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb8d2"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75008",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3125820053910253,
+                48.872527190470976
+            ],
+            "xLon": 2.3125820053910253,
+            "yLat": 48.872527190470976,
+            "geoHash": "110100000001001111001000001000"
+        },
+        "radiusMeter": 1618,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75008",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 41280
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.29514492787727,
+                    48.8630784802801
+                ],
+                "xLon": 2.29514492787727,
+                "yLat": 48.8630784802801
+            },
+            "northEast": {
+                "point": [
+                    2.327114571596543,
+                    48.88348457278406
+                ],
+                "xLon": 2.327114571596543,
+                "yLat": 48.88348457278406
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.29514492787727,
+                        48.87386606894351
+                    ],
+                    [
+                        2.301813133026213,
+                        48.87887044903953
+                    ],
+                    [
+                        2.327114571596543,
+                        48.88348457278406
+                    ],
+                    [
+                        2.325754396571458,
+                        48.86954640751676
+                    ],
+                    [
+                        2.320782077542493,
+                        48.8630784802801
+                    ],
+                    [
+                        2.301555660655981,
+                        48.86348017781633
+                    ],
+                    [
+                        2.29514492787727,
+                        48.87386606894351
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3125820053910253,
+                    48.872527190470976
+                ],
+                "xLon": 2.3125820053910253,
+                "yLat": 48.872527190470976,
+                "geoHash": "110100000001001111001000001000"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb8da"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75009",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3374598062689205,
+                48.876896104104446
+            ],
+            "xLon": 2.3374598062689205,
+            "yLat": 48.876896104104446,
+            "geoHash": "110100000001001111001000100001"
+        },
+        "radiusMeter": 1185,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75009",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 60139
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.325754396571458,
+                    48.86954640751676
+                ],
+                "xLon": 2.325754396571458,
+                "yLat": 48.86954640751676
+            },
+            "northEast": {
+                "point": [
+                    2.349545722552631,
+                    48.883625940775296
+                ],
+                "xLon": 2.349545722552631,
+                "yLat": 48.883625940775296
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.325754396571458,
+                        48.86954640751676
+                    ],
+                    [
+                        2.327114571596543,
+                        48.88348457278406
+                    ],
+                    [
+                        2.349545722552631,
+                        48.883625940775296
+                    ],
+                    [
+                        2.347825827106489,
+                        48.8706309531233
+                    ],
+                    [
+                        2.327877012030475,
+                        48.86986349270285
+                    ],
+                    [
+                        2.325754396571458,
+                        48.86954640751676
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3374598062689205,
+                    48.876896104104446
+                ],
+                "xLon": 2.3374598062689205,
+                "yLat": 48.876896104104446,
+                "geoHash": "110100000001001111001000100001"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb8fe"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75010",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3611130791707335,
+                48.876028403253535
+            ],
+            "xLon": 2.3611130791707335,
+            "yLat": 48.876028403253535,
+            "geoHash": "110100000001001111001000101001"
+        },
+        "radiusMeter": 1252,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75010",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 95394
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.347825827106489,
+                    48.86743468202396
+                ],
+                "xLon": 2.347825827106489,
+                "yLat": 48.86743468202396
+            },
+            "northEast": {
+                "point": [
+                    2.377012650350471,
+                    48.88429182692754
+                ],
+                "xLon": 2.377012650350471,
+                "yLat": 48.88429182692754
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.347825827106489,
+                        48.8706309531233
+                    ],
+                    [
+                        2.349545722552631,
+                        48.883625940775296
+                    ],
+                    [
+                        2.364673978738878,
+                        48.88429182692754
+                    ],
+                    [
+                        2.369294943835116,
+                        48.8833275827534
+                    ],
+                    [
+                        2.377012650350471,
+                        48.87191904673662
+                    ],
+                    [
+                        2.363857163658477,
+                        48.86743468202396
+                    ],
+                    [
+                        2.354114850410883,
+                        48.86927935103906
+                    ],
+                    [
+                        2.347825827106489,
+                        48.8706309531233
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3611130791707335,
+                    48.876028403253535
+                ],
+                "xLon": 2.3611130791707335,
+                "yLat": 48.876028403253535,
+                "geoHash": "110100000001001111001000101001"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff835fc1ef371d36ebdb1"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75011",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3787411660550073,
+                48.85941528469265
+            ],
+            "xLon": 2.3787411660550073,
+            "yLat": 48.85941528469265,
+            "geoHash": "110100000001001110011111010100"
+        },
+        "radiusMeter": 1954,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75011",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 153202
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.363857163658477,
+                    48.84810049225559
+                ],
+                "xLon": 2.363857163658477,
+                "yLat": 48.84810049225559
+            },
+            "northEast": {
+                "point": [
+                    2.399114832576364,
+                    48.87191904673662
+                ],
+                "xLon": 2.399114832576364,
+                "yLat": 48.87191904673662
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.363857163658477,
+                        48.86743468202396
+                    ],
+                    [
+                        2.377012650350471,
+                        48.87191904673662
+                    ],
+                    [
+                        2.399114832576364,
+                        48.84810049225559
+                    ],
+                    [
+                        2.369017412062745,
+                        48.85322511634771
+                    ],
+                    [
+                        2.368401039058591,
+                        48.855740363038045
+                    ],
+                    [
+                        2.363857163658477,
+                        48.86743468202396
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3787411660550073,
+                    48.85941528469265
+                ],
+                "xLon": 2.3787411660550073,
+                "yLat": 48.85941528469265,
+                "geoHash": "110100000001001110011111010100"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb90f"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75012",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.4198073496767907,
+                48.83515612306778
+            ],
+            "xLon": 2.4198073496767907,
+            "yLat": 48.83515612306778,
+            "geoHash": "110100000001001110011111100100"
+        },
+        "radiusMeter": 4253,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75012",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 144262
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.364320755819571,
+                    48.81834895596535
+                ],
+                "xLon": 2.364320755819571,
+                "yLat": 48.81834895596535
+            },
+            "northEast": {
+                "point": [
+                    2.467246349159149,
+                    48.85322511634771
+                ],
+                "xLon": 2.467246349159149,
+                "yLat": 48.85322511634771
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.364320755819571,
+                        48.84616761048593
+                    ],
+                    [
+                        2.369017412062745,
+                        48.85322511634771
+                    ],
+                    [
+                        2.399114832576364,
+                        48.84810049225559
+                    ],
+                    [
+                        2.415973497918025,
+                        48.84662881371988
+                    ],
+                    [
+                        2.413653462713592,
+                        48.83722749836219
+                    ],
+                    [
+                        2.416529480728821,
+                        48.83468755327338
+                    ],
+                    [
+                        2.42303457996842,
+                        48.84272322732537
+                    ],
+                    [
+                        2.427516652551685,
+                        48.841575417251995
+                    ],
+                    [
+                        2.447851622063205,
+                        48.84480979306716
+                    ],
+                    [
+                        2.467246349159149,
+                        48.83908854146849
+                    ],
+                    [
+                        2.465755725720868,
+                        48.826283674799605
+                    ],
+                    [
+                        2.461247906256895,
+                        48.81834895596535
+                    ],
+                    [
+                        2.436690800784338,
+                        48.8184694441605
+                    ],
+                    [
+                        2.429881542702906,
+                        48.823356652039536
+                    ],
+                    [
+                        2.41998619130328,
+                        48.82408261535671
+                    ],
+                    [
+                        2.403294974644444,
+                        48.82924454463774
+                    ],
+                    [
+                        2.390069234150383,
+                        48.82569712427416
+                    ],
+                    [
+                        2.365944290009594,
+                        48.84490786020056
+                    ],
+                    [
+                        2.364320755819571,
+                        48.84616761048593
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.4198073496767907,
+                    48.83515612306778
+                ],
+                "xLon": 2.4198073496767907,
+                "yLat": 48.83515612306778,
+                "geoHash": "110100000001001110011111100100"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb910"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75013",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3624680670270934,
+                48.82871793325768
+            ],
+            "xLon": 2.3624680670270934,
+            "yLat": 48.82871793325768,
+            "geoHash": "110100000001001110011101101010"
+        },
+        "radiusMeter": 2054,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75013",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 181532
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.342031437797675,
+                    48.81575741290934
+                ],
+                "xLon": 2.342031437797675,
+                "yLat": 48.81575741290934
+            },
+            "northEast": {
+                "point": [
+                    2.390069234150383,
+                    48.84490786020056
+                ],
+                "xLon": 2.390069234150383,
+                "yLat": 48.84490786020056
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.342031437797675,
+                        48.83830303994149
+                    ],
+                    [
+                        2.351573651114927,
+                        48.83683571227172
+                    ],
+                    [
+                        2.365944290009594,
+                        48.84490786020056
+                    ],
+                    [
+                        2.390069234150383,
+                        48.82569712427416
+                    ],
+                    [
+                        2.364206466616785,
+                        48.816397795978894
+                    ],
+                    [
+                        2.356354373541595,
+                        48.8159598308062
+                    ],
+                    [
+                        2.352866675425978,
+                        48.81821662333585
+                    ],
+                    [
+                        2.343908889962799,
+                        48.81575741290934
+                    ],
+                    [
+                        2.342031437797675,
+                        48.83830303994149
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3624680670270934,
+                    48.82871793325768
+                ],
+                "xLon": 2.3624680670270934,
+                "yLat": 48.82871793325768,
+                "geoHash": "110100000001001110011101101010"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb8df"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75014",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3271009340059514,
+                48.82899319786739
+            ],
+            "xLon": 2.3271009340059514,
+            "yLat": 48.82899319786739,
+            "geoHash": "110100000001001110011101001011"
+        },
+        "radiusMeter": 1941,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75014",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 138299
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.301321219690598,
+                    48.81575741290934
+                ],
+                "xLon": 2.301321219690598,
+                "yLat": 48.81575741290934
+            },
+            "northEast": {
+                "point": [
+                    2.343908889962799,
+                    48.843521620525856
+                ],
+                "xLon": 2.343908889962799,
+                "yLat": 48.843521620525856
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.301321219690598,
+                        48.8251299318814
+                    ],
+                    [
+                        2.324660773025275,
+                        48.843521620525856
+                    ],
+                    [
+                        2.336590613220193,
+                        48.83969448273319
+                    ],
+                    [
+                        2.342031437797675,
+                        48.83830303994149
+                    ],
+                    [
+                        2.343908889962799,
+                        48.81575741290934
+                    ],
+                    [
+                        2.331908118383782,
+                        48.8170125147869
+                    ],
+                    [
+                        2.314148829762503,
+                        48.822290733262385
+                    ],
+                    [
+                        2.301321219690598,
+                        48.8251299318814
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3271009340059514,
+                    48.82899319786739
+                ],
+                "xLon": 2.3271009340059514,
+                "yLat": 48.82899319786739,
+                "geoHash": "110100000001001110011101001011"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb900"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75015",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.2935592336248503,
+                48.840155187125255
+            ],
+            "xLon": 2.2935592336248503,
+            "yLat": 48.840155187125255,
+            "geoHash": "110100000001001110011101000101"
+        },
+        "radiusMeter": 2362,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75015",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 236715
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.262784232195233,
+                    48.8251299318814
+                ],
+                "xLon": 2.262784232195233,
+                "yLat": 48.8251299318814
+            },
+            "northEast": {
+                "point": [
+                    2.324660773025275,
+                    48.85812296221435
+                ],
+                "xLon": 2.324660773025275,
+                "yLat": 48.85812296221435
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.289783049093025,
+                        48.85812296221435
+                    ],
+                    [
+                        2.307340850607289,
+                        48.84770338650857
+                    ],
+                    [
+                        2.316633254352939,
+                        48.846758802040135
+                    ],
+                    [
+                        2.324660773025275,
+                        48.843521620525856
+                    ],
+                    [
+                        2.301321219690598,
+                        48.8251299318814
+                    ],
+                    [
+                        2.289398696528094,
+                        48.82835155109736
+                    ],
+                    [
+                        2.280858673288013,
+                        48.8313313229052
+                    ],
+                    [
+                        2.271927931432642,
+                        48.82888525271738
+                    ],
+                    [
+                        2.267617023913039,
+                        48.834200977119295
+                    ],
+                    [
+                        2.262784232195233,
+                        48.833928455024875
+                    ],
+                    [
+                        2.289783049093025,
+                        48.85812296221435
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.2935592336248503,
+                    48.840155187125255
+                ],
+                "xLon": 2.2935592336248503,
+                "yLat": 48.840155187125255,
+                "geoHash": "110100000001001110011101000101"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb901"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75016",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.262099097272764,
+                48.8603985785387
+            ],
+            "xLon": 2.262099097272764,
+            "yLat": 48.8603985785387,
+            "geoHash": "110100000001001110010111110110"
+        },
+        "radiusMeter": 2944,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75016",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 171124
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.224224299685617,
+                    48.833928455024875
+                ],
+                "xLon": 2.224224299685617,
+                "yLat": 48.833928455024875
+            },
+            "northEast": {
+                "point": [
+                    2.301555660655981,
+                    48.88019249123069
+                ],
+                "xLon": 2.301555660655981,
+                "yLat": 48.88019249123069
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.224224299685617,
+                        48.85351591695089
+                    ],
+                    [
+                        2.225663032836219,
+                        48.859406943691326
+                    ],
+                    [
+                        2.231735934223821,
+                        48.869069703062145
+                    ],
+                    [
+                        2.245698723198861,
+                        48.876460639504785
+                    ],
+                    [
+                        2.255286073422813,
+                        48.87435333384421
+                    ],
+                    [
+                        2.259975590425708,
+                        48.88019249123069
+                    ],
+                    [
+                        2.279946529296446,
+                        48.878578638056034
+                    ],
+                    [
+                        2.29514492787727,
+                        48.87386606894351
+                    ],
+                    [
+                        2.301555660655981,
+                        48.86348017781633
+                    ],
+                    [
+                        2.289783049093025,
+                        48.85812296221435
+                    ],
+                    [
+                        2.262784232195233,
+                        48.833928455024875
+                    ],
+                    [
+                        2.253560309350692,
+                        48.8368571367787
+                    ],
+                    [
+                        2.248055140028387,
+                        48.84631990808577
+                    ],
+                    [
+                        2.224224299685617,
+                        48.85351591695089
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.262099097272764,
+                    48.8603985785387
+                ],
+                "xLon": 2.262099097272764,
+                "yLat": 48.8603985785387,
+                "geoHash": "110100000001001110010111110110"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff836fc1ef371d36ebdd6"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75017",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3074851245788106,
+                48.887337225229416
+            ],
+            "xLon": 2.3074851245788106,
+            "yLat": 48.887337225229416,
+            "geoHash": "110100000001001111001000001101"
+        },
+        "radiusMeter": 2255,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75017",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 169325
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.279946529296446,
+                    48.87386606894351
+                ],
+                "xLon": 2.279946529296446,
+                "yLat": 48.87386606894351
+            },
+            "northEast": {
+                "point": [
+                    2.329983109601267,
+                    48.90116361135524
+                ],
+                "xLon": 2.329983109601267,
+                "yLat": 48.90116361135524
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.279946529296446,
+                        48.878578638056034
+                    ],
+                    [
+                        2.28445794842216,
+                        48.8856383241909
+                    ],
+                    [
+                        2.303776432125191,
+                        48.89415199232377
+                    ],
+                    [
+                        2.319884325065467,
+                        48.900458641751655
+                    ],
+                    [
+                        2.329983109601267,
+                        48.90116361135524
+                    ],
+                    [
+                        2.327114571596543,
+                        48.88348457278406
+                    ],
+                    [
+                        2.301813133026213,
+                        48.87887044903953
+                    ],
+                    [
+                        2.29514492787727,
+                        48.87386606894351
+                    ],
+                    [
+                        2.279946529296446,
+                        48.878578638056034
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3074851245788106,
+                    48.887337225229416
+                ],
+                "xLon": 2.3074851245788106,
+                "yLat": 48.887337225229416,
+                "geoHash": "110100000001001111001000001101"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff83bfc1ef371d36ec148"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75018",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3487120090632776,
+                48.892735049860704
+            ],
+            "xLon": 2.3487120090632776,
+            "yLat": 48.892735049860704,
+            "geoHash": "110100000001001111001000110010"
+        },
+        "radiusMeter": 1888,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75018",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 202685
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.327114571596543,
+                    48.88348457278406
+                ],
+                "xLon": 2.327114571596543,
+                "yLat": 48.88348457278406
+            },
+            "northEast": {
+                "point": [
+                    2.371273652765588,
+                    48.901651684608034
+                ],
+                "xLon": 2.371273652765588,
+                "yLat": 48.901651684608034
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.370286308426488,
+                        48.901651684608034
+                    ],
+                    [
+                        2.371273652765588,
+                        48.89563155039161
+                    ],
+                    [
+                        2.364673978738878,
+                        48.88429182692754
+                    ],
+                    [
+                        2.349545722552631,
+                        48.883625940775296
+                    ],
+                    [
+                        2.327114571596543,
+                        48.88348457278406
+                    ],
+                    [
+                        2.329983109601267,
+                        48.90116361135524
+                    ],
+                    [
+                        2.351872793652169,
+                        48.901526882022345
+                    ],
+                    [
+                        2.365840085323268,
+                        48.90161082357496
+                    ],
+                    [
+                        2.370286308426488,
+                        48.901651684608034
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3487120090632776,
+                    48.892735049860704
+                ],
+                "xLon": 2.3487120090632776,
+                "yLat": 48.892735049860704,
+                "geoHash": "110100000001001111001000110010"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff817fc1ef371d36eade2"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75019",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3846944095068325,
+                48.88686850022136
+            ],
+            "xLon": 2.3846944095068325,
+            "yLat": 48.88686850022136,
+            "geoHash": "110100000001001111001010000111"
+        },
+        "radiusMeter": 2123,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75019",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 186652
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.364673978738878,
+                    48.87191904673662
+                ],
+                "xLon": 2.364673978738878,
+                "yLat": 48.87191904673662
+            },
+            "northEast": {
+                "point": [
+                    2.41069388898598,
+                    48.901651684608034
+                ],
+                "xLon": 2.41069388898598,
+                "yLat": 48.901651684608034
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.364673978738878,
+                        48.88429182692754
+                    ],
+                    [
+                        2.371273652765588,
+                        48.89563155039161
+                    ],
+                    [
+                        2.370286308426488,
+                        48.901651684608034
+                    ],
+                    [
+                        2.389443762753682,
+                        48.90115692587704
+                    ],
+                    [
+                        2.396499922572761,
+                        48.89619286906982
+                    ],
+                    [
+                        2.398638077611444,
+                        48.889414092760916
+                    ],
+                    [
+                        2.400339063190815,
+                        48.883747179394994
+                    ],
+                    [
+                        2.41069388898598,
+                        48.87847534877744
+                    ],
+                    [
+                        2.377012650350471,
+                        48.87191904673662
+                    ],
+                    [
+                        2.369294943835116,
+                        48.8833275827534
+                    ],
+                    [
+                        2.364673978738878,
+                        48.88429182692754
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3846944095068325,
+                    48.88686850022136
+                ],
+                "xLon": 2.3846944095068325,
+                "yLat": 48.88686850022136,
+                "geoHash": "110100000001001111001010000111"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff818fc1ef371d36eadf6"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75020",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.4008198551521964,
+                48.86318679989871
+            ],
+            "xLon": 2.4008198551521964,
+            "yLat": 48.86318679989871,
+            "geoHash": "110100000001001110011111011101"
+        },
+        "radiusMeter": 2151,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75020",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 196880
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.377012650350471,
+                    48.84662881371988
+                ],
+                "xLon": 2.377012650350471,
+                "yLat": 48.84662881371988
+            },
+            "northEast": {
+                "point": [
+                    2.416339995855916,
+                    48.87847534877744
+                ],
+                "xLon": 2.416339995855916,
+                "yLat": 48.87847534877744
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.377012650350471,
+                        48.87191904673662
+                    ],
+                    [
+                        2.41069388898598,
+                        48.87847534877744
+                    ],
+                    [
+                        2.413263342490619,
+                        48.87311856399713
+                    ],
+                    [
+                        2.415319574761071,
+                        48.85517776531398
+                    ],
+                    [
+                        2.416339995855916,
+                        48.84923773515551
+                    ],
+                    [
+                        2.415973497918025,
+                        48.84662881371988
+                    ],
+                    [
+                        2.399114832576364,
+                        48.84810049225559
+                    ],
+                    [
+                        2.377012650350471,
+                        48.87191904673662
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.4008198551521964,
+                    48.86318679989871
+                ],
+                "xLon": 2.4008198551521964,
+                "yLat": 48.86318679989871,
+                "geoHash": "110100000001001110011111011101"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff82cfc1ef371d36eb841"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Nanterre",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "92",
+        "zoneNameLevel2": "HAUTS-DE-SEINE",
+        "zoneCodeLevel3": "92000",
+        "zoneNameLevel3": "Nanterre",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.2067133175374423,
+                48.8960702615633
+            ],
+            "xLon": 2.2067133175374423,
+            "yLat": 48.8960702615633,
+            "geoHash": "110100000001001111000010010001"
+        },
+        "radiusMeter": 2908,
+        "googleFormattedAddress": "Nanterre, HAUTS-DE-SEINE, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_92_92000",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 89185
+                }
+            ],
+            "name": "Nanterre"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.169347907356507,
+                    48.874228721350825
+                ],
+                "xLon": 2.169347907356507,
+                "yLat": 48.874228721350825
+            },
+            "northEast": {
+                "point": [
+                    2.233785365320385,
+                    48.92061819430218
+                ],
+                "xLon": 2.233785365320385,
+                "yLat": 48.92061819430218
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.169347907356507,
+                        48.895813306794054
+                    ],
+                    [
+                        2.174274993909554,
+                        48.89906678184922
+                    ],
+                    [
+                        2.200591289701529,
+                        48.908678837133515
+                    ],
+                    [
+                        2.220399975711025,
+                        48.92061819430218
+                    ],
+                    [
+                        2.229103895840939,
+                        48.906033131156434
+                    ],
+                    [
+                        2.231624215393607,
+                        48.90065350835228
+                    ],
+                    [
+                        2.233785365320385,
+                        48.89567661576257
+                    ],
+                    [
+                        2.22361098196268,
+                        48.8827684067279
+                    ],
+                    [
+                        2.207759748963947,
+                        48.874228721350825
+                    ],
+                    [
+                        2.169347907356507,
+                        48.895813306794054
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.2067133175374423,
+                    48.8960702615633
+                ],
+                "xLon": 2.2067133175374423,
+                "yLat": 48.8960702615633,
+                "geoHash": "110100000001001111000010010001"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff831fc1ef371d36ebb3b"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Levallois-Perret",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "92",
+        "zoneNameLevel2": "HAUTS-DE-SEINE",
+        "zoneCodeLevel3": "92300",
+        "zoneNameLevel3": "Levallois-Perret",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.2868826355685097,
+                48.89507163580743
+            ],
+            "xLon": 2.2868826355685097,
+            "yLat": 48.89507163580743,
+            "geoHash": "110100000001001111001000010001"
+        },
+        "radiusMeter": 1242,
+        "googleFormattedAddress": "Levallois-Perret, HAUTS-DE-SEINE, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_92_92300",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 64253
+                }
+            ],
+            "name": "Levallois-Perret"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.271065845070175,
+                    48.8856383241909
+                ],
+                "xLon": 2.271065845070175,
+                "yLat": 48.8856383241909
+            },
+            "northEast": {
+                "point": [
+                    2.303776432125191,
+                    48.90364216071349
+                ],
+                "xLon": 2.303776432125191,
+                "yLat": 48.90364216071349
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.271065845070175,
+                        48.89840011351642
+                    ],
+                    [
+                        2.284270888027667,
+                        48.902283756036724
+                    ],
+                    [
+                        2.287389944076875,
+                        48.90364216071349
+                    ],
+                    [
+                        2.303776432125191,
+                        48.89415199232377
+                    ],
+                    [
+                        2.28445794842216,
+                        48.8856383241909
+                    ],
+                    [
+                        2.271065845070175,
+                        48.89840011351642
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.2868826355685097,
+                    48.89507163580743
+                ],
+                "xLon": 2.2868826355685097,
+                "yLat": 48.89507163580743,
+                "geoHash": "110100000001001111001000010001"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "58cff824fc1ef371d36eb466"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Rueil-Malmaison",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "92",
+        "zoneNameLevel2": "HAUTS-DE-SEINE",
+        "zoneCodeLevel3": "92500",
+        "zoneNameLevel3": "Rueil-Malmaison",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.177340691102365,
+                48.86918979779294
+            ],
+            "xLon": 2.177340691102365,
+            "yLat": 48.86918979779294,
+            "geoHash": "110100000001001111000000101000"
+        },
+        "radiusMeter": 3018,
+        "googleFormattedAddress": "Rueil-Malmaison, HAUTS-DE-SEINE, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_92_92500",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 79426
+                }
+            ],
+            "name": "Rueil-Malmaison"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.150386914961067,
+                    48.84772097659228
+                ],
+                "xLon": 2.150386914961067,
+                "yLat": 48.84772097659228
+            },
+            "northEast": {
+                "point": [
+                    2.21128168824687,
+                    48.895813306794054
+                ],
+                "xLon": 2.21128168824687,
+                "yLat": 48.895813306794054
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.15376346450399,
+                        48.86440696361475
+                    ],
+                    [
+                        2.150386914961067,
+                        48.870866825714096
+                    ],
+                    [
+                        2.15831503578506,
+                        48.88060877219371
+                    ],
+                    [
+                        2.169347907356507,
+                        48.895813306794054
+                    ],
+                    [
+                        2.207759748963947,
+                        48.874228721350825
+                    ],
+                    [
+                        2.21128168824687,
+                        48.86854072302778
+                    ],
+                    [
+                        2.200677285595448,
+                        48.86307435081677
+                    ],
+                    [
+                        2.203563322430793,
+                        48.86062929411425
+                    ],
+                    [
+                        2.197860492264059,
+                        48.854763444762455
+                    ],
+                    [
+                        2.182606133758875,
+                        48.85156628205561
+                    ],
+                    [
+                        2.159868278189792,
+                        48.84772097659228
+                    ],
+                    [
+                        2.150412339669113,
+                        48.85850040338438
+                    ],
+                    [
+                        2.15376346450399,
+                        48.86440696361475
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.177340691102365,
+                    48.86918979779294
+                ],
+                "xLon": 2.177340691102365,
+                "yLat": 48.86918979779294,
+                "geoHash": "110100000001001111000000101000"
+            }
+        ]
+    }
+]

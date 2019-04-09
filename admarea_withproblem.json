@@ -1,0 +1,114 @@
+[
+    {
+        "_id": {
+            "$oid": "58cff82dfc1ef371d36eb910"
+        },
+        "_class": "com.comkeys.admarea.core.model.AdministrativeArea",
+        "zoneName": "Paris",
+        "zoneCountryCodeLevel0": "FR",
+        "zoneCountryName0": "France",
+        "zoneCodeLevel1": "11",
+        "zoneNameLevel1": "ILE-DE-FRANCE",
+        "zoneCodeLevel2": "75",
+        "zoneNameLevel2": "PARIS",
+        "zoneCodeLevel3": "75013",
+        "zoneNameLevel3": "Paris",
+        "administrativeAreaType": "FR_CODE_POSTAL_3",
+        "administrativeAreaLevel": 3,
+        "isCountrySharpestLevel": false,
+        "centroid": {
+            "point": [
+                2.3624680670270934,
+                48.82871793325768
+            ],
+            "xLon": 2.3624680670270934,
+            "yLat": 48.82871793325768,
+            "geoHash": "110100000001001110011101101010"
+        },
+        "radiusMeter": 2054,
+        "googleFormattedAddress": "Paris, PARIS, ILE-DE-FRANCE, France",
+        "idCode": "FR_11_75_75013",
+        "type": "Feature",
+        "properties": {
+            "_class": "com.comkeys.admarea.core.model.AdministrativeAreaPropertiesFR",
+            "populationDetails": [
+                {
+                    "population": 181532
+                }
+            ],
+            "name": "Paris"
+        },
+        "bbox": {
+            "southWest": {
+                "point": [
+                    2.342031437797675,
+                    48.81575741290934
+                ],
+                "xLon": 2.342031437797675,
+                "yLat": 48.81575741290934
+            },
+            "northEast": {
+                "point": [
+                    2.390069234150383,
+                    48.84490786020056
+                ],
+                "xLon": 2.390069234150383,
+                "yLat": 48.84490786020056
+            }
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        2.342031437797675,
+                        48.83830303994149
+                    ],
+                    [
+                        2.351573651114927,
+                        48.83683571227172
+                    ],
+                    [
+                        2.365944290009594,
+                        48.84490786020056
+                    ],
+                    [
+                        2.390069234150383,
+                        48.82569712427416
+                    ],
+                    [
+                        2.364206466616785,
+                        48.816397795978894
+                    ],
+                    [
+                        2.356354373541595,
+                        48.8159598308062
+                    ],
+                    [
+                        2.352866675425978,
+                        48.81821662333585
+                    ],
+                    [
+                        2.343908889962799,
+                        48.81575741290934
+                    ],
+                    [
+                        2.342031437797675,
+                        48.83830303994149
+                    ]
+                ]
+            ]
+        },
+        "centroids": [
+            {
+                "point": [
+                    2.3624680670270934,
+                    48.82871793325768
+                ],
+                "xLon": 2.3624680670270934,
+                "yLat": 48.82871793325768,
+                "geoHash": "110100000001001110011101101010"
+            }
+        ]
+    }
+]
