@@ -2,21 +2,31 @@ package s2bench
 
 import (
 	"encoding/json"
-	"github.com/golang/geo/s2"
 	"io/ioutil"
 	"os"
 	"strings"
 	"testing"
+
+	"github.com/golang/geo/s2"
 )
 
-func toAdmAreas(fileName string) admareas {
+func loadAdmAreasFromFile(fileName string) admareas {
 	file, _ := ioutil.ReadFile(fileName)
 	var areas admareas
 	json.Unmarshal([]byte(file), &areas)
 	return areas
 }
 
+func loadGeoJSONsFromFile(fileName string) GeoJSONs {
+	file, _ := ioutil.ReadFile(fileName)
+	var geoJSONs GeoJSONs
+	json.Unmarshal([]byte(file), &geoJSONs)
+	return geoJSONs
+}
+
 var idf50, idf100, idf500, idf1000, idf10000, idf100000 s2.CellUnion
+var admIDF admareas
+var geosIdf GeoJSONs
 
 const (
 	latInside  float64 = 48.85805170891599
@@ -26,13 +36,16 @@ const (
 )
 
 func setup() {
-	admIDF := toAdmAreas("area_idf_fromadm-area.json")
+	admIDF = loadAdmAreasFromFile("area_idf_fromadm-area.json")
+
 	idf50 = admIDF.s2CellIds(50)
 	idf100 = admIDF.s2CellIds(100)
 	idf500 = admIDF.s2CellIds(500)
 	idf1000 = admIDF.s2CellIds(1000)
 	idf10000 = admIDF.s2CellIds(10000)
 	idf100000 = admIDF.s2CellIds(100000)
+
+	geosIdf = loadGeoJSONsFromFile("geojson_idf.json")
 }
 func TestMain(m *testing.M) {
 	setup()
@@ -40,7 +53,7 @@ func TestMain(m *testing.M) {
 	os.Exit(retCode)
 }
 func TestNormalize(t *testing.T) {
-	admareas := toAdmAreas("admarea_withproblem.json")
+	admareas := loadAdmAreasFromFile("admarea_withproblem.json")
 	if len(admareas) != 1 {
 		t.Errorf("Expected 1 area in file with problem, got %v\n", len(admareas))
 	}
@@ -51,7 +64,7 @@ func TestNormalize(t *testing.T) {
 }
 
 func TestIdf(t *testing.T) {
-	admareas := toAdmAreas("area_idf_fromadm-area.json")
+	admareas := loadAdmAreasFromFile("area_idf_fromadm-area.json")
 	// admareas := toAdmAreas("admarea_alone.json")
 	// admareas := toAdmAreas("admarea_several.json")
 
@@ -164,4 +177,31 @@ func Test75001(t *testing.T) {
 
 	// fmt.Println(strings.Join(cells, ","))
 
+}
+
+func TestGeoJsonToS2Exact(t *testing.T) {
+	testCases := []struct {
+		desc          string
+		geoJSONs      GeoJSONs
+		expectedCells string
+	}{
+		{
+			desc:          "IDF",
+			geoJSONs:      geosIdf,
+			expectedCells: "47e60d2c,47e60d34,47e60d3c,47e60d44,47e60d4c,47e6630d,47e66314,47e6633,47e6635,47e6637,47e66384,47e6639d,47e6643c,47e6645,47e6647,47e664c,47e6653,47e6655,47e66564,47e6656c,47e6657c,47e66584,47e66c2c,47e66c34,47e66c4b,47e66d74,47e66d7c,47e66d9,47e66da4,47e66db4,47e66dbc,47e66dd,47e66df,47e66e4,47e66e84,47e66e8c,47e66ef4,47e66efc,47e66f01,47e66f07,47e66f084,47e66f74,47e66f7c,47e66fc,47e6701,47e6703,47e6705,47e67067,47e6706c,47e67074,47e67175,47e671c,47e6721,47e6723,47e67244,47e672484,47e6725c,47e6727,47e67284,47e6728c,47e67294,47e672b,47e672d,47e672f,47e67a94,47e67a9c,47e67ab,47e67ad,47e67aeaac,47e67b2c,47e67b4d,47e67b54,47e67cac,47e67cb4,47e67cbc,47e67cc4,47e67ccc,47e67cd1ffc,47e67cd3",
+		},
+	}
+	for _, tC := range testCases {
+		t.Run(tC.desc, func(t *testing.T) {
+			cellsIds := tC.geoJSONs.toS2CellIds(100)
+			var cells []string
+			for _, cellID := range cellsIds {
+				cells = append(cells, cellID.ToToken())
+			}
+			cellsString := strings.Join(cells, ",")
+			if cellsString != tC.expectedCells {
+				t.Errorf("For %v, got cells %v, excpected %v", tC.desc, cellsString, tC.expectedCells)
+			}
+		})
+	}
 }

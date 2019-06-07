@@ -52,10 +52,7 @@ type admarea struct {
 			YLat  float64   `json:"yLat"`
 		} `json:"northEast"`
 	} `json:"bbox"`
-	Geometry struct {
-		Type        string        `json:"type"`
-		Coordinates [][][]float64 `json:"coordinates"`
-	} `json:"geometry"`
+	Geometry  GeoJSON `json:"geometry"`
 	Centroids []struct {
 		Point   []float64 `json:"point"`
 		XLon    float64   `json:"xLon"`
@@ -65,36 +62,14 @@ type admarea struct {
 }
 
 func (a *admarea) toLoop() *s2.Loop {
-	//TODO case where Geometry is not polygon, here we assume it is always a polygon
-	var pts []s2.Point
-	for _, pt := range a.Geometry.Coordinates[0] {
-		//in geojson lon is first at lat second
-		pts = append(pts, s2.PointFromLatLng(s2.LatLngFromDegrees(pt[1], pt[0])))
-	}
-	loop := s2.LoopFromPoints(pts)
-	// fmt.Println("Area of Loop before Normalize : ", loop.Area())
-	loop.Normalize()
-	// fmt.Println("Area of Loop after Normalize: ", loop.Area())
-	//sometimes normalize do not work
-	if loop.Area() > 1 {
-		loop.Invert()
-		// fmt.Println("Area of Loop after Invert: ", loop.Area())
-	}
-
-	return loop
+	return a.Geometry.toLoop()
 }
 
 func (as *admareas) s2CellIds(maxCells int) s2.CellUnion {
-	//1.build []s2.Loop
-	//2. use to build polgon
-	//3. approximate Region
-	var loops []*s2.Loop
+	// make geoJsons from all admarea.Geometry
+	var geometries GeoJSONs
 	for _, area := range *as {
-		loops = append(loops, area.toLoop())
+		geometries = append(geometries, area.Geometry)
 	}
-	p := s2.PolygonFromLoops(loops)
-	rc := &s2.RegionCoverer{MaxLevel: 25, MaxCells: maxCells}
-	r := s2.Region(p)
-	covering := rc.Covering(r)
-	return covering
+	return geometries.toS2CellIds(maxCells)
 }
